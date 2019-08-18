@@ -1,0 +1,39 @@
+Bellow you have a list of features to enable based on level of maintenance. This is based on the following article which describes each one and how to configure it
+
+https://support.f5.com/csp/article/K07359270.
+
+Stage 1
+External logging
+Attack signatures
+IP Intelligence
+Geolocation
+Protocol compliance
+Protection from evasion techniques
+Protection from parameter exploits—blacklisting
+Threat campaigns
+Bot defense – signatures only
+Behavioral DDoS – transparent only
+Disallowed file types
+Credentials Stuffing
+
+Stage 2
+HTTP redirection protection
+Allowed URL list – if URLs are known and ca be collapsed with wildcards
+User session tracking
+Brute force attack protection
+Allowed HTTP request methods
+Data Guard
+Behavioral DDoS – blocking
+Data Guard
+Allowed HTTP request methods
+
+Stage 3
+CSRF protection
+Web scraping protection
+Cookie tampering protection
+Allowed URL list – if URLs are unknown
+DataSafe
+Session hijacking protection
+Protection from parameter exploits—whitelisting
+DAST integration
+
